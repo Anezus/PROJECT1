@@ -79,22 +79,22 @@
     </nav>
     <?php
     $productlist = [
-        ['name' => 'The Twin', 'price' => '1700000', 'sale_price' => '1500000', 'image' => 'img/1.jpg','more' => 'https://terraria.fandom.com/wiki/Plantera'],
-        ['name' => 'Plantera', 'price' => '19500000', 'sale_price' => '2100000', 'image' => 'img/2.jpg','more' => 'https://terraria.fandom.com/wiki/Plantera'],
-        ['name' => 'Brain Of Cthulu', 'price' => '2500000', 'sale_price' => '2200000', 'image' => 'img/BOC.jpg','more' => 'https://terraria.fandom.com/wiki/Brain_of_Cthulhu'],
-        ['name' => 'Wall Of Flesh', 'price' => '2600000', 'sale_price' => '1800000', 'image' => 'img/WOF.jpg','more' => 'https://terraria.fandom.com/wiki/Wall_of_Flesh'],
-        ['name' => 'King Slime', 'price' => '2780000', 'sale_price' => '3400000', 'image' => 'img/KS.jpg','more' => 'https://terraria.fandom.com/wiki/King_Slime'],
-        ['name' => 'Eater of Worlds', 'price' => '2650000', 'sale_price' => '1200000', 'image' => 'img/EOW.jpg','more' => 'https://terraria.fandom.com/wiki/Eater of Worlds'],
-        ['name' => 'Queen Bee', 'price' => '2780000', 'sale_price' => '3600000', 'image' => 'img/Qb.jpg','more' => 'https://terraria.fandom.com/wiki/Queen Bee'],
-        ['name' => 'Skeletron', 'price' => '1650000', 'sale_price' => '2700000', 'image' => 'img/SK.jpg','more' => 'https://terraria.fandom.com/wiki/Skeletron'],
-        ['name' => 'Deerclops', 'price' => '1950000', 'sale_price' => '2300000', 'image' => 'img/DEE.jpg','more' => 'https://terraria.fandom.com/wiki/Deerclops'],
-        ['name' => 'Queen Slime', 'price' => '1400000', 'sale_price' => '2500000', 'image' => 'img/QS.jpg','more' => 'https://terraria.fandom.com/wiki/Queen Slime'],
-        ['name' => 'The Destroyer', 'price' => '1800000', 'sale_price' => '2900000', 'image' => 'img/TD.jpg','more' => 'https://terraria.fandom.com/wiki/The Destroyer'],
-        ['name' => 'Skeletron Prime', 'price' => '1900000', 'sale_price' => '2600000', 'image' => 'img/SP.jpg','more' => 'https://terraria.fandom.com/wiki/Skeletron Prime'],
-        ['name' => 'Golem', 'price' => '7800000', 'sale_price' => '1900000', 'image' => 'img/G.jpg','more' => 'https://terraria.fandom.com/wiki/Golem'],
-        ['name' => 'Empress of Light', 'price' => '9400000', 'sale_price' => '1300000', 'image' => 'img/EOL.jpg','more' => 'https://terraria.fandom.com/wiki/Empress of Light'],
-        ['name' => 'Lunatic Cultist', 'price' => '3100000', 'sale_price' => '1600000', 'image' => 'img/LC.jpg','more' => 'https://terraria.fandom.com/wiki/Lunatic Cultist'],
-        ['name' => 'Moon Lord', 'price' => '4200000', 'sale_price' => '1700000', 'image' => 'img/ML.jpg','more' => 'https://terraria.fandom.com/wiki/Moon Lord'],
+        ['name' => 'The Twin', 'price' => '1700000', 'sale_price' => '1500000', 'image' => 'img/tws.jpg','more' => 'https://terraria.fandom.com/wiki/Plantera'],
+        ['name' => 'Plantera', 'price' => '19500000', 'sale_price' => '2100000', 'image' => 'img/pt7.jpg','more' => 'https://terraria.fandom.com/wiki/Plantera'],
+        ['name' => 'Brain Of Cthulu', 'price' => '2500000', 'sale_price' => '2200000', 'image' => 'img/boc1.jpg','more' => 'https://terraria.fandom.com/wiki/Brain_of_Cthulhu'],
+        ['name' => 'Wall Of Flesh', 'price' => '2600000', 'sale_price' => '1800000', 'image' => 'img/wof1.jpg','more' => 'https://terraria.fandom.com/wiki/Wall_of_Flesh'],
+        ['name' => 'King Slime', 'price' => '2780000', 'sale_price' => '3400000', 'image' => 'img/ks.jpg','more' => 'https://terraria.fandom.com/wiki/King_Slime'],
+        ['name' => 'Eater of Worlds', 'price' => '2650000', 'sale_price' => '1200000', 'image' => 'img/eow.jpg','more' => 'https://terraria.fandom.com/wiki/Eater of Worlds'],
+        ['name' => 'Queen Bee', 'price' => '2780000', 'sale_price' => '3600000', 'image' => 'img/qb.jpg','more' => 'https://terraria.fandom.com/wiki/Queen Bee'],
+        ['name' => 'Skeletron', 'price' => '1650000', 'sale_price' => '2700000', 'image' => 'img/sk1.jpg','more' => 'https://terraria.fandom.com/wiki/Skeletron'],
+        ['name' => 'Deerclops', 'price' => '1950000', 'sale_price' => '2300000', 'image' => 'img/dee1.jpg','more' => 'https://terraria.fandom.com/wiki/Deerclops'],
+        ['name' => 'Queen Slime', 'price' => '1400000', 'sale_price' => '2500000', 'image' => 'img/qs.jpg','more' => 'https://terraria.fandom.com/wiki/Queen Slime'],
+        ['name' => 'The Destroyer', 'price' => '1800000', 'sale_price' => '2900000', 'image' => 'img/td.jpg','more' => 'https://terraria.fandom.com/wiki/The Destroyer'],
+        ['name' => 'Skeletron Prime', 'price' => '1900000', 'sale_price' => '2600000', 'image' => 'img/sp.jpg','more' => 'https://terraria.fandom.com/wiki/Skeletron Prime'],
+        ['name' => 'Golem', 'price' => '7800000', 'sale_price' => '1900000', 'image' => 'img/g1.jpg','more' => 'https://terraria.fandom.com/wiki/Golem'],
+        ['name' => 'Empress of Light', 'price' => '9400000', 'sale_price' => '1300000', 'image' => 'img/eol3.jpg','more' => 'https://terraria.fandom.com/wiki/Empress of Light'],
+        ['name' => 'Lunatic Cultist', 'price' => '3100000', 'sale_price' => '1600000', 'image' => 'img/lc4.jpg','more' => 'https://terraria.fandom.com/wiki/Lunatic Cultist'],
+        ['name' => 'Moon Lord', 'price' => '4200000', 'sale_price' => '1700000', 'image' => 'img/ml1.jpg','more' => 'https://terraria.fandom.com/wiki/Moon Lord'],
         
 
     ];
