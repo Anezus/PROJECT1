@@ -87,13 +87,13 @@
         ['name' => 'Eater of Worlds', 'price' => '2650000', 'sale_price' => '1200000', 'image' => 'img/eow.jpg','more' => 'https://terraria.fandom.com/wiki/Eater of Worlds'],
         ['name' => 'Queen Bee', 'price' => '2780000', 'sale_price' => '3600000', 'image' => 'img/qb.jpg','more' => 'https://terraria.fandom.com/wiki/Queen Bee'],
         ['name' => 'Skeletron', 'price' => '1650000', 'sale_price' => '2700000', 'image' => 'img/sk1.jpg','more' => 'https://terraria.fandom.com/wiki/Skeletron'],
-        ['name' => 'Deerclops', 'price' => '1950000', 'sale_price' => '2300000', 'image' => 'img/dee1.jpg','more' => 'https://terraria.fandom.com/wiki/Deerclops'],
+        ['name' => 'Deerclops', 'price' => '1950000', 'sale_price' => '2300000', 'image' => 'img/dee2.jpg','more' => 'https://terraria.fandom.com/wiki/Deerclops'],
         ['name' => 'Queen Slime', 'price' => '1400000', 'sale_price' => '2500000', 'image' => 'img/qs.jpg','more' => 'https://terraria.fandom.com/wiki/Queen Slime'],
         ['name' => 'The Destroyer', 'price' => '1800000', 'sale_price' => '2900000', 'image' => 'img/td.jpg','more' => 'https://terraria.fandom.com/wiki/The Destroyer'],
         ['name' => 'Skeletron Prime', 'price' => '1900000', 'sale_price' => '2600000', 'image' => 'img/sp.jpg','more' => 'https://terraria.fandom.com/wiki/Skeletron Prime'],
         ['name' => 'Golem', 'price' => '7800000', 'sale_price' => '1900000', 'image' => 'img/g1.jpg','more' => 'https://terraria.fandom.com/wiki/Golem'],
         ['name' => 'Empress of Light', 'price' => '9400000', 'sale_price' => '1300000', 'image' => 'img/eol3.jpg','more' => 'https://terraria.fandom.com/wiki/Empress of Light'],
-        ['name' => 'Lunatic Cultist', 'price' => '3100000', 'sale_price' => '1600000', 'image' => 'img/lc4.jpg','more' => 'https://terraria.fandom.com/wiki/Lunatic Cultist'],
+        ['name' => 'Lunatic Cultist', 'price' => '3100000', 'sale_price' => '1600000', 'image' => 'img/lc.jpg','more' => 'https://terraria.fandom.com/wiki/Lunatic Cultist'],
         ['name' => 'Moon Lord', 'price' => '4200000', 'sale_price' => '1700000', 'image' => 'img/ml1.jpg','more' => 'https://terraria.fandom.com/wiki/Moon Lord'],
         
 
