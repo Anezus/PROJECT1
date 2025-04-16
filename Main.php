@@ -16,22 +16,26 @@
         }
 
         .card {
-            margin-top:20px;
+            margin-top: 20px;
             background-color: rgba(255, 255, 255, 0.62);
         }
+
         .navbar {
-        opacity: 0.8;
+            opacity: 0.8;
         }
+
         .navbar {
-        background-color: rgba(255, 255, 255, 0); 
+            background-color: rgba(255, 255, 255, 1);
         }
     </style>
 </head>
+
 <body>
-        
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/13.jpg" style="width: 80px" ><b text-color: hsla(0, 0.00%, 0.80%, 0.00)>Terraria The Stores</b></a>
+            <a class="navbar-brand" href="#"><img src="img/13.jpg" style="width: 80px"><b text-color: hsla(0, 0.00%,
+                    0.80%, 0.00)>Terraria The Stores</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -53,8 +57,8 @@
                         <a class="nav-link active" aria-current="page" href="#">Contact To UsWebsite</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Figure Idle
                         </a>
                         <ul class="dropdown-menu">
@@ -79,23 +83,23 @@
     </nav>
     <?php
     $productlist = [
-        ['name' => 'The Twin', 'price' => '1700000', 'sale_price' => '1500000', 'image' => 'img/tws.jpg','more' => 'https://terraria.fandom.com/wiki/Plantera'],
-        ['name' => 'Plantera', 'price' => '19500000', 'sale_price' => '2100000', 'image' => 'img/pt7.jpg','more' => 'https://terraria.fandom.com/wiki/Plantera'],
-        ['name' => 'Brain Of Cthulu', 'price' => '2500000', 'sale_price' => '2200000', 'image' => 'img/boc1.jpg','more' => 'https://terraria.fandom.com/wiki/Brain_of_Cthulhu'],
-        ['name' => 'Wall Of Flesh', 'price' => '2600000', 'sale_price' => '1800000', 'image' => 'img/wof1.jpg','more' => 'https://terraria.fandom.com/wiki/Wall_of_Flesh'],
-        ['name' => 'King Slime', 'price' => '2780000', 'sale_price' => '3400000', 'image' => 'img/ks.jpg','more' => 'https://terraria.fandom.com/wiki/King_Slime'],
-        ['name' => 'Eater of Worlds', 'price' => '2650000', 'sale_price' => '1200000', 'image' => 'img/eow.jpg','more' => 'https://terraria.fandom.com/wiki/Eater of Worlds'],
-        ['name' => 'Queen Bee', 'price' => '2780000', 'sale_price' => '3600000', 'image' => 'img/qb.jpg','more' => 'https://terraria.fandom.com/wiki/Queen Bee'],
-        ['name' => 'Skeletron', 'price' => '1650000', 'sale_price' => '2700000', 'image' => 'img/sk1.jpg','more' => 'https://terraria.fandom.com/wiki/Skeletron'],
-        ['name' => 'Deerclops', 'price' => '1950000', 'sale_price' => '2300000', 'image' => 'img/dee2.jpg','more' => 'https://terraria.fandom.com/wiki/Deerclops'],
-        ['name' => 'Queen Slime', 'price' => '1400000', 'sale_price' => '2500000', 'image' => 'img/qs.jpg','more' => 'https://terraria.fandom.com/wiki/Queen Slime'],
-        ['name' => 'The Destroyer', 'price' => '1800000', 'sale_price' => '2900000', 'image' => 'img/td.jpg','more' => 'https://terraria.fandom.com/wiki/The Destroyer'],
-        ['name' => 'Skeletron Prime', 'price' => '1900000', 'sale_price' => '2600000', 'image' => 'img/sp.jpg','more' => 'https://terraria.fandom.com/wiki/Skeletron Prime'],
-        ['name' => 'Golem', 'price' => '7800000', 'sale_price' => '1900000', 'image' => 'img/g1.jpg','more' => 'https://terraria.fandom.com/wiki/Golem'],
-        ['name' => 'Empress of Light', 'price' => '9400000', 'sale_price' => '1300000', 'image' => 'img/eol3.jpg','more' => 'https://terraria.fandom.com/wiki/Empress of Light'],
-        ['name' => 'Lunatic Cultist', 'price' => '3100000', 'sale_price' => '1600000', 'image' => 'img/lc.jpg','more' => 'https://terraria.fandom.com/wiki/Lunatic Cultist'],
-        ['name' => 'Moon Lord', 'price' => '4200000', 'sale_price' => '1700000', 'image' => 'img/ml1.jpg','more' => 'https://terraria.fandom.com/wiki/Moon Lord'],
-        
+        ['name' => 'The Twin', 'price' => '1700000', 'sale_price' => '1500000', 'image' => 'img/tws.jpg', 'more' => 'https://terraria.fandom.com/wiki/Plantera'],
+        ['name' => 'Plantera', 'price' => '19500000', 'sale_price' => '2100000', 'image' => 'img/pt7.jpg', 'more' => 'https://terraria.fandom.com/wiki/Plantera'],
+        ['name' => 'Brain Of Cthulu', 'price' => '2500000', 'sale_price' => '2200000', 'image' => 'img/boc1.jpg', 'more' => 'https://terraria.fandom.com/wiki/Brain_of_Cthulhu'],
+        ['name' => 'Wall Of Flesh', 'price' => '2600000', 'sale_price' => '1800000', 'image' => 'img/wof1.jpg', 'more' => 'https://terraria.fandom.com/wiki/Wall_of_Flesh'],
+        ['name' => 'King Slime', 'price' => '2780000', 'sale_price' => '3400000', 'image' => 'img/ks.jpg', 'more' => 'https://terraria.fandom.com/wiki/King_Slime'],
+        ['name' => 'Eater of Worlds', 'price' => '2650000', 'sale_price' => '1200000', 'image' => 'img/eow.jpg', 'more' => 'https://terraria.fandom.com/wiki/Eater of Worlds'],
+        ['name' => 'Queen Bee', 'price' => '2780000', 'sale_price' => '3600000', 'image' => 'img/qb.jpg', 'more' => 'https://terraria.fandom.com/wiki/Queen Bee'],
+        ['name' => 'Skeletron', 'price' => '1650000', 'sale_price' => '2700000', 'image' => 'img/sk1.jpg', 'more' => 'https://terraria.fandom.com/wiki/Skeletron'],
+        ['name' => 'Deerclops', 'price' => '1950000', 'sale_price' => '2300000', 'image' => 'img/dee2.jpg', 'more' => 'https://terraria.fandom.com/wiki/Deerclops'],
+        ['name' => 'Queen Slime', 'price' => '1400000', 'sale_price' => '2500000', 'image' => 'img/qs.jpg', 'more' => 'https://terraria.fandom.com/wiki/Queen Slime'],
+        ['name' => 'The Destroyer', 'price' => '1800000', 'sale_price' => '2900000', 'image' => 'img/td.jpg', 'more' => 'https://terraria.fandom.com/wiki/The Destroyer'],
+        ['name' => 'Skeletron Prime', 'price' => '1900000', 'sale_price' => '2600000', 'image' => 'img/sp.jpg', 'more' => 'https://terraria.fandom.com/wiki/Skeletron Prime'],
+        ['name' => 'Golem', 'price' => '7800000', 'sale_price' => '1900000', 'image' => 'img/g1.jpg', 'more' => 'https://terraria.fandom.com/wiki/Golem'],
+        ['name' => 'Empress of Light', 'price' => '9400000', 'sale_price' => '1300000', 'image' => 'img/eol3.jpg', 'more' => 'https://terraria.fandom.com/wiki/Empress of Light'],
+        ['name' => 'Lunatic Cultist', 'price' => '3100000', 'sale_price' => '1600000', 'image' => 'img/lc.jpg', 'more' => 'https://terraria.fandom.com/wiki/Lunatic Cultist'],
+        ['name' => 'Moon Lord', 'price' => '4200000', 'sale_price' => '1700000', 'image' => 'img/ml1.jpg', 'more' => 'https://terraria.fandom.com/wiki/Moon Lord'],
+
 
     ];
     ?>
@@ -116,9 +120,9 @@
                                 <?php
                             }
                             ?>
-                              <a href="#" class="btn btn-danger me-1">Add to Cart</a>
-                                
-                           
+                            <a href="#" class="btn btn-danger me-1">Add to Cart</a>
+
+
                             <a href="<?= $item['more']; ?>" class="btn btn-primary me-1">More</a>
                         </div>
                     </div>
